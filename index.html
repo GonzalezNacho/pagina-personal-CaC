@@ -12,51 +12,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="botonesNavBar navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="botonesNavBar navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class=" m-auto conteiner">
-        <div class="row">
-            <div class="col-6 divFoto">
-                <img src=./img/yo.png " alt="Foto de Ignacio González " class="m-auto ">
-            </div>
-            <div class="col-6 m-auto ">
-                <h1 class="text-black display-3 mb-5 ">González Escalada Ignacio</h1>
-                <h2 class="titulos ">Tec. en Electronica - Estudiante de programacion</h2>
-            </div>
-        </div>
-    </div>
-    
-    <section class="m-auto text-center text-white textoSobreMi ">
-        <h1 class=" display-3 mb-5 ">González Escalada Ignacio</h1>
-        <h2 class="titulos ">Tec. en Electronica - Estudiante de programacion</h2>
-        <p class="text-justify ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime facere pariatur ex consequatur quo obcaecati, aut sit? Eveniet laboriosam consequuntur deserunt autem repudiandae porro eius itaque quos commodi vero!</p>
-        <p class="text-justify ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime facere pariatur ex consequatur quo obcaecati, aut sit? Eveniet laboriosam consequuntur deserunt autem repudiandae porro eius itaque quos commodi vero!</p>
-        <p class="text-justify ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime facere pariatur ex consequatur quo obcaecati, aut sit? Eveniet laboriosam consequuntur deserunt autem repudiandae porro eius itaque quos commodi vero!</p>
+        </nav>
+    </header>
 
+    <section id="banner">
+        <div class="conteiner">
+            <img src=./img/yo.png " alt="Foto de Ignacio González " >
+            <h1 class="text-black display-3 mb-5 ">González Escalada Ignacio</h1>
+            <!--<h2 class="titulos ">Tec. en Electronica - Estudiante de programacion</h2>-->
+        </div>
+    </section>
+    
+    <section id="textoSobreMi">
+        <div class="conteiner m-auto text-white text-center">
+            <h1 class=" display-3 mb-5 ">González Escalada Ignacio</h1>
+            <h2 class="titulos ">Tec. en Electronica - Estudiante de programacion</h2>
+            <p class="text-justify ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime facere pariatur ex consequatur quo obcaecati, aut sit? Eveniet laboriosam consequuntur deserunt autem repudiandae porro eius itaque quos commodi vero!</p>
+            <p class="text-justify ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime facere pariatur ex consequatur quo obcaecati, aut sit? Eveniet laboriosam consequuntur deserunt autem repudiandae porro eius itaque quos commodi vero!</p>
+            <p class="text-justify ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maxime facere pariatur ex consequatur quo obcaecati, aut sit? Eveniet laboriosam consequuntur deserunt autem repudiandae porro eius itaque quos commodi vero!</p>
+        </div>
     </section>
 
     <section id="skills">
-        <div class="row justify-content-around ">
-            <div class="col-4">
+        <div class="conteiner">
                 <div class="card bg-dark text-white ">
                     <img src="./img/programacion-1920x1180.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay capa">
@@ -65,8 +64,6 @@
                       <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-4">
                 <div class="card bg-dark text-white ">
                     <img src="./img/sysadmin.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay capa">
@@ -74,8 +71,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text">Last updated 3 mins ago</p>
                     </div>
-                </div>
-            </div>         
+                </div>         
         </div>
     </section>
 
