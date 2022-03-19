@@ -24,7 +24,9 @@ img {
 }
 
 #banner .conteiner{
-    background-color: lightslategray;
+    /*background-color: lightslategray;*/
+    background: rgb(98,106,106);
+    background: linear-gradient(0deg, rgba(98,106,106,1) 0%, rgba(195,191,183,1) 100%);       
 }
 
 #banner .nombre {
