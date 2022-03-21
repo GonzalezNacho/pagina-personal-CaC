@@ -12,10 +12,15 @@ h2{font-size: 2.3em;}
 h3{font-size: 1.8em;}
 p{font-size: 1.25m;}
 
+nav svg {
+    height: 32px;
+    width: 32px;
+} 
 img {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 300px;
+    max-height: 250px;
 }
+
 .conteiner{
     display: flex;
     flex-direction: column;
@@ -38,7 +43,16 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-height: 90vh;
+    white-space: pre-line;
+    min-height: 90vh; 
+}
+
+#textoSobreMi h2{
+    margin: 0 20%;
+}
+
+#textoSobreMi p{
+    margin:  0 20%;
 }
 
 .botonesNavBar {
@@ -81,4 +95,24 @@ img {
 
 ul {
     list-style: none;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: chocolate;
+}
+
+
+@media (min-width:720px) {
+    .conteiner{
+        flex-direction: row;
+    }
+
+    #textoSobreMi .conteiner{
+        flex-direction: column;
+    }
 }
