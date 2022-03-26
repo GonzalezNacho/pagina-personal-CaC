@@ -133,11 +133,6 @@ footer a:hover {
     }
 }
 
-@media (min-heigth:700px) {
-    #textoSobreMi .conteiner {
-        justify-content: center;
-    }
-}
 
 #textoSobreMi .conteiner {
     flex-direction: column;
@@ -146,6 +141,7 @@ footer a:hover {
     max-width: 800px;
     margin: auto;
     min-height: 90vh;
+    justify-content: space-evenly;
 }
 
 .conteinerColumn {
