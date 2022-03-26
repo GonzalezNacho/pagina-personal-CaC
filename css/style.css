@@ -133,6 +133,12 @@ footer a:hover {
     }
 }
 
+@media (min-heigth:700px) {
+    #textoSobreMi .conteiner {
+        justify-content: center;
+    }
+}
+
 #textoSobreMi .conteiner {
     flex-direction: column;
     color: aliceblue;
