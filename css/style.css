@@ -64,10 +64,17 @@ nav svg {
 header{
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
-#banner div {
+.bannerDiv {
     padding-top: 80px;
+    transition: padding-top .4s;
+}
+
+.bannerDivDesplazado {
+    padding-top: 220px;
+    transition: padding-top .4s;
 }
 /*
 .botonesNavBar {
