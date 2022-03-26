@@ -23,6 +23,13 @@ h3 {
 p {
     font-size: 1.25m;
 }
+nav div {
+    max-width: 1400px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
 
 nav svg {
     height: 32px;
