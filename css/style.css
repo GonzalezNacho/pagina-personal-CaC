@@ -69,12 +69,12 @@ header{
 
 .bannerDiv {
     padding-top: 80px;
-    transition: padding-top .4s;
+    transition: padding-top .3s;
 }
 
 .bannerDivDesplazado {
     padding-top: 220px;
-    transition: padding-top .4s;
+    transition: padding-top .3s;
 }
 /*
 .botonesNavBar {
