@@ -102,6 +102,10 @@ nav {
     overflow: auto;
 }
 
+.card .lista ul{
+    text-align: start;
+}
+
 .card img {
     max-width: 100%;
     border-radius: 18px;   
