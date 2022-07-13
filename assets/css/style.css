@@ -107,6 +107,9 @@ nav {
     border-radius: 18px;   
 }
 
+.capa {
+    padding: 0;
+}
 /*.capa {
     border-radius: 18px;
     position: absolute;
@@ -168,6 +171,11 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2%;
+}
+
+#titulo-sysadmin {
+    padding: 2% 3%;
 }
 
 .cursor { 
