@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-    font-size: 1.25m;
+    font-size: 1.25em;
 }
 nav div {
     max-width: 1400px;
@@ -104,6 +104,7 @@ nav {
 
 .card .lista ul{
     text-align: start;
+    font-size: 0.8em;
 }
 
 .card img {
@@ -150,11 +151,20 @@ footer a:hover {
     color: black;
 }
 
+footer .conteiner  {
+    font-size: small;
+}
+
 @media (min-width:720px) {
     .conteiner {
         flex-direction: row;
     }
+
+    footer .conteiner  {
+        font-size: 1.3em;
+    }
 }
+
 
 
 #textoSobreMi .conteiner {
