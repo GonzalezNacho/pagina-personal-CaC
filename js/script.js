@@ -7,14 +7,12 @@ function desplazarBannerAbajo() {
     }
 }
 
-function insertarTexto() {
-    let span = document.getElementById("cursor");
-    if (span.className === "cursor"){
-        span.className += "Desplazado";
-        span.textContent ="";
-    } else {
-        span.className = "cursor";
-        span.textContent ="│";
-        span.contentEditable = "false";
-    }
+function insertarTexto(span) {
+    span.className += "Desplazado";
+    span.textContent =" ";
+}
+
+function estadoInicial(span) {
+    span.className = "cursor";
+    span.textContent ="│";
 }

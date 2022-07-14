@@ -47,9 +47,8 @@
 
     <section id="banner">
         <div class="conteiner bannerDiv" id="bannerDiv">
-            <h2 class="nombre text-center">> González Escalada Ignacio<span class="cursor" id="cursor" contenteditable="true" onclick="insertarTexto()">│</span></h2>
+            <h2 class="nombre text-center">> González Escalada Ignacio<span class="cursor" id="cursor" contenteditable="true" onclick="insertarTexto(this)" onblur="estadoInicial(this)">│</span></h2>
             <img src="./assets/img/yo.png" alt="Foto de Ignacio González " >
-            <!--<h2 class="titulos ">Tec. en Electronica - Estudiante de programacion</h2>-->
         </div>
     </section>
     
@@ -67,14 +66,14 @@
                 <img src="./assets/img/Mac.png" class="card-img" alt="...">
                 <div class="card-img-overlay capa">
                     <h6 class="card-title" id="titulo-programacion">@_Programación</h6>
-                    <div class="lista">
+                    <div class="lista" id="listaProgramacion">
                         <ul>
-                            <li>Maquetacion HTML y CSS</li>
-                            <li>Manejo del DOM con JS</li>
-                            <li>Bootstrap como framework</li>
-                            <li>POO</li>
-                            <li>Java, JPanel</li>
-                            <li>NodeJS , npm</li>
+                            <li><span>></span>HTML y CSS</li>
+                            <li><span>></span>Manejo del DOM con JS</li>
+                            <li><span>></span>Bootstrap como framework</li>
+                            <li><span>></span>POO</li>
+                            <li><span>></span>Java, JPanel</li>
+                            <li><span>></span>NodeJS , npm</li>
                         </ul>
                     </div>
                 </div>
@@ -85,12 +84,12 @@
                     <h6 id="titulo-sysadmin" class="card-title">Sys admin</h6>
                     <div class="lista">
                         <ul>
-                            <li>Administracion Linux Server</li>
-                            <li>Administracion de Redes</li>
-                            <li>Administracion de Mail Server</li>
-                            <li>Configuracion de DHCP y Proxy</li>
-                            <li>BASH scripting</li>
-                            <li>Virtualizacion (docker, VMWare)</li>
+                            <li><span>[1.938271]</span>Administracion Linux Server</li>
+                            <li><span>[1.373728]</span>Administracion de Redes</li>
+                            <li><span>[1.564632]</span>Administracion de Mail Server</li>
+                            <li><span>[1.122143]</span>Configuracion de DHCP y Proxy</li>
+                            <li><span>[1.126587]</span>BASH scripting</li>
+                            <li><span>[1.786234]</span>Virtualizacion (docker, VMWare)</li>
                         </ul>
                     </div>                  
                 </div>
