@@ -9,6 +9,7 @@ function desplazarBannerAbajo() {
 
 function insertarTexto(span) {
     span.className += "Desplazado";
+    span.desingMode='on';
     span.textContent =" ";
 }
 
