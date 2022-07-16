@@ -110,19 +110,25 @@ nav {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.50);
     border-radius: 20px;
     overflow: auto;
+    min-width: 300px;
+    min-height: 200px;
+    background-color: #222323;
 }
 
 .card .lista ul{
     text-align: start;
     font-size: 0.8em;
+    white-space: nowrap;
+    padding: 1%;
 }
 
 .card img {
     max-width: 100%;
-    border-radius: 18px;   
+    max-height: 100%;
+    border-radius: 18px;
 }
 
-.capa {
+.lista {
     padding: 0;
 }
 
